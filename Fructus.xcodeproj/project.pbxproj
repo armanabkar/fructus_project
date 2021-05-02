@@ -46,6 +46,7 @@
 		F046E93F263B055900BE0402 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		F046E942263B058A00BE0402 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		F046E945263B05B400BE0402 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		F0EECD3F263F3B62000B344D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		F03C34F3263AA72D0054485E = {
 			isa = PBXGroup;
 			children = (
+				F0EECD3F263F3B62000B344D /* README.md */,
 				F03C34FE263AA72D0054485E /* Fructus */,
 				F03C34FD263AA72D0054485E /* Products */,
 			);
