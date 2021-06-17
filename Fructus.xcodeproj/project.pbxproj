@@ -60,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0037BB4267B2B2400B57671 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03C34FF263AA72D0054485E /* FructusApp.swift */,
+				F03C3503263AA72E0054485E /* Assets.xcassets */,
+				F03C3508263AA72E0054485E /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		F03C34F3263AA72D0054485E = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +93,7 @@
 				F03C3524263ACBE10054485E /* Data */,
 				F03C351D263ACACC0054485E /* Model */,
 				F03C3511263AAA0F0054485E /* View */,
-				F03C350F263AA9FC0054485E /* App */,
-				F03C3503263AA72E0054485E /* Assets.xcassets */,
-				F03C3508263AA72E0054485E /* Info.plist */,
+				F0037BB4267B2B2400B57671 /* Support Files */,
 				F03C3505263AA72E0054485E /* Preview Content */,
 			);
 			path = Fructus;
@@ -99,19 +107,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F03C350F263AA9FC0054485E /* App */ = {
-			isa = PBXGroup;
-			children = (
-				F03C34FF263AA72D0054485E /* FructusApp.swift */,
-				F03C3501263AA72D0054485E /* ContentView.swift */,
-				F046E936263B048900BE0402 /* SettingsView.swift */,
-				F046E939263B04C800BE0402 /* SettingsRowView.swift */,
-				F03C352F263B000F0054485E /* FruitDetailView.swift */,
-				F03C3519263AC8BB0054485E /* OnboardingView.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
 		F03C3511263AAA0F0054485E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +117,11 @@
 				F03C3516263AC5CF0054485E /* StartButtonView.swift */,
 				F046E93C263B050000BE0402 /* SettingsLableView.swift */,
 				F03C352C263ACF8A0054485E /* FruitRowView.swift */,
+				F03C3501263AA72D0054485E /* ContentView.swift */,
+				F046E936263B048900BE0402 /* SettingsView.swift */,
+				F046E939263B04C800BE0402 /* SettingsRowView.swift */,
+				F03C352F263B000F0054485E /* FruitDetailView.swift */,
+				F03C3519263AC8BB0054485E /* OnboardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,7 +357,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
 				DEVELOPMENT_TEAM = QMW26WR72K;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Fructus/Info.plist;
+				INFOPLIST_FILE = "Fructus/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -379,7 +379,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
 				DEVELOPMENT_TEAM = QMW26WR72K;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Fructus/Info.plist;
+				INFOPLIST_FILE = "Fructus/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
