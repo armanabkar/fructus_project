@@ -7,15 +7,10 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct FruitNutrientsView: View {
-    // MARK: - PROPERTIES
     
     var fruit: Fruit
     let nutrients: [String] = ["Energy", "Sugar", "Fat", "Protein", "Vitamins", "Minerals"]
-    
-    // MARK: - BODY
     
     var body: some View {
         GroupBox() {
@@ -38,16 +33,14 @@ struct FruitNutrientsView: View {
                     }
                 }
             }
-        } //: BOX
+        }
     }
 }
-
-// MARK: - PREVIEW
 
 struct FruitNutrientsView_Previews: PreviewProvider {
     static var previews: some View {
         FruitNutrientsView(fruit: fruitsData[0])
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
             .previewLayout(.fixed(width: 375, height: 480))
             .padding()
     }

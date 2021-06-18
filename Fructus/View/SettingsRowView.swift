@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct SettingsRowView: View {
-    // MARK: - PROPERTIES
     
     var name: String
     var content: String? = nil
     var linkLabel: String? = nil
     var linkDestination: String? = nil
-    
-    // MARK: - BODY
     
     var body: some View {
         VStack {
@@ -28,7 +25,9 @@ struct SettingsRowView: View {
                     Text(content!)
                 } else if (linkLabel != nil && linkDestination != nil) {
                     Link(linkLabel!, destination: URL(string: "https://\(linkDestination!)")!)
-                    Image(systemName: "arrow.up.right.square").foregroundColor(.pink)
+                        .foregroundColor(.blue)
+                    Image(systemName: "arrow.up.right.square")
+                        .foregroundColor(.blue)
                 }
                 else {
                     EmptyView()
@@ -37,8 +36,6 @@ struct SettingsRowView: View {
         }
     }
 }
-
-// MARK: - PREVIEW
 
 struct SettingsRowView_Previews: PreviewProvider {
     static var previews: some View {

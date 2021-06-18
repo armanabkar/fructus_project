@@ -10,19 +10,14 @@ import SwiftUI
 import SwiftUI
 
 struct SettingsView: View {
-    // MARK: - PROPERTIES
     
     @Environment(\.presentationMode) var presentationMode
     @AppStorage("isOnboarding") var isOnboarding: Bool = false
-    
-    // MARK: - BODY
     
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: 20) {
-                    // MARK: - SECTION 1
-                    
                     GroupBox(
                         label:
                             SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
@@ -40,9 +35,6 @@ struct SettingsView: View {
                                 .font(.footnote)
                         }
                     }
-                    
-                    // MARK: - SECTION 2
-                    
                     GroupBox(
                         label: SettingsLabelView(labelText: "Customization", labelImage: "paintbrush")
                     ) {
@@ -72,9 +64,6 @@ struct SettingsView: View {
                                 .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
                         )
                     }
-                    
-                    // MARK: - SECTION 3
-                    
                     GroupBox(
                         label:
                             SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
@@ -87,7 +76,7 @@ struct SettingsView: View {
                         SettingsRowView(name: "Version", content: "1.0.0")
                     }
                     
-                } //: VSTACK
+                }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(
                     trailing:
@@ -98,12 +87,10 @@ struct SettingsView: View {
                         }
                 )
                 .padding()
-            } //: SCROLL
-        } //: NAVIGATION
+            }
+        }
     }
 }
-
-// MARK: - PREVIEW
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
