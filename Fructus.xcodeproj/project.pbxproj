@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0037BB9267CFBF400B57671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0037BB8267CFBF400B57671 /* LaunchScreen.storyboard */; };
 		F03C3500263AA72D0054485E /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C34FF263AA72D0054485E /* FructusApp.swift */; };
 		F03C3502263AA72D0054485E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C3501263AA72D0054485E /* ContentView.swift */; };
 		F03C3504263AA72E0054485E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03C3503263AA72E0054485E /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0037BB8267CFBF400B57671 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03C34FC263AA72D0054485E /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03C34FF263AA72D0054485E /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		F03C3501263AA72D0054485E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				F03C34FF263AA72D0054485E /* FructusApp.swift */,
 				F03C3503263AA72E0054485E /* Assets.xcassets */,
 				F03C3508263AA72E0054485E /* Info.plist */,
+				F0037BB8267CFBF400B57671 /* LaunchScreen.storyboard */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0037BB9267CFBF400B57671 /* LaunchScreen.storyboard in Resources */,
 				F03C3507263AA72E0054485E /* Preview Assets.xcassets in Resources */,
 				F03C3504263AA72E0054485E /* Assets.xcassets in Resources */,
 			);
